@@ -1,0 +1,41 @@
+#hours-box {
+    width: 100%;
+    padding-bottom: 45%;
+}
+
+#hours-box .box-container {
+    position: absolute;
+    right: 30px;
+
+    width: 39.3%;
+    height: 17.5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px;
+}
+
+#hours-box .box-container .text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hours-box .box-container .text p:first-child {
+    font-size: 40px;
+    font-weight: bold;
+
+    position: relative;
+    top: 15px;
+}
+
+#hours-box .box-container .text p:last-child {
+    font-size: 25px;
+}

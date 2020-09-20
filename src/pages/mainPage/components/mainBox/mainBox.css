@@ -1,0 +1,140 @@
+#main-box {
+    width: 100%;
+    padding-bottom: 113%;
+
+    margin-bottom: 20px;
+}
+
+#main-box .box-container {
+    position: absolute;
+    left: 30px;
+
+    width: 84%;
+    height: 43.8%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding: 5px;
+
+    overflow: auto;
+}
+
+#main-box .box-container img {
+    width: 40px;
+}
+
+#main-box .box-container .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 50px;
+
+    padding: 0 5px;
+}
+
+#main-box .box-container .top .user {
+    display: flex;
+}
+
+#main-box .box-container .top .user .user-text {
+    margin-left: 10px;
+}
+
+#main-box .box-container .top .user .user-text p:first-child {
+    font-size: 15px;
+
+    position: relative;
+    top: 5px;
+}
+
+#main-box .box-container .top .user .user-text .name {
+    font-size: 25px;
+}
+
+.calendar {
+    margin-top: 15px;
+}
+
+.calendar .react-calendar__navigation__arrow {
+    display: none;
+}
+
+.calendar .react-calendar__tile {
+    border: none;
+}
+
+.calendar .react-calendar__month-view__days__day--neighboringMonth abbr {
+    display: none;
+}
+
+.calendar .react-calendar__tile--now {
+    background-color: #88f2c1;
+    border-radius: 5px;
+}
+
+#main-box .box-container .mainBody {
+    padding: 0 10px;
+}
+
+#main-box .box-container .mainBody .time-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-box .box-container .mainBody .time-options .option {
+    background-color: #DEE3E5;
+    border-radius: 5px;
+    width: 50px;
+
+    margin: 10px 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#main-box .box-container .mainBody .time-options .option.selected {
+    background-color: #88f2c1;
+}
+
+#main-box .box-container .mainBody .estudo {
+    background-color: #DEE3E5;
+    border-radius: 5px;
+
+    padding: 5px;
+
+    margin-bottom: 10px;
+}
+
+#main-box .box-container .mainBody .estudo .subject {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#main-box .box-container .mainBody .next-events {
+    background-color: #DEE3E5;
+    border-radius: 5px;
+
+    padding: 5px 10px;
+
+    margin-bottom: 10px;
+}
+
+#main-box .box-container .mainBody .next-events .next {
+    margin-bottom: 5px;
+}
+
+#main-box .box-container .mainBody .next-events .events {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#main-box .box-container .mainBody .next-events .events p:last-child {
+    font-weight: bold;
+}
