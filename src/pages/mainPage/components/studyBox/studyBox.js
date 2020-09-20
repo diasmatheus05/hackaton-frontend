@@ -34,7 +34,7 @@ function StudyBox() {
         <div id="study-box" className="box">
             <div className="box-container">
                 {clicked 
-                    ? <p>00:{time}:00 {setTimeout(()=> {setTime(time+1)}, 1000)}</p>
+                    ? <p>00:{time}: {setTimeout(()=> {setTime(time+1)}, 1000)}</p>
                     : <p>Iniciar <strong>estudo</strong></p>
                 }
                 <img src={clicked ? pause_icon : play_icon} alt="Play" onClick={() => setClicked(!clicked)} />
