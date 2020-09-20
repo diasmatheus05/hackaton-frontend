@@ -21,7 +21,7 @@ function HoursBox() {
                             maxWidth: '120px',
                         },
                         path: {
-                          stroke: '#04d976',
+                          stroke: '#ffbe00',
                         },
                         trail: {
                           stroke: '#DEE3E5',

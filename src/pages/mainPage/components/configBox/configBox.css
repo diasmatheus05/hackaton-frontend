@@ -18,5 +18,7 @@
 }
 
 #config-box .box-container img {
-    width: 40px;
+    width: 80px;
+    position: relative;
+    top: 4px;
 }

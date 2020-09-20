@@ -14,6 +14,8 @@ html, body, #root {
 
 body {
   background-color: #05f283;
+  background-image: url('./assets/fundo.png');
+  background-size: 100vw;
 }
 
 #root {

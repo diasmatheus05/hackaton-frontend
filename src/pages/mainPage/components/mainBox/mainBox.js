@@ -4,7 +4,8 @@ import Calendar from 'react-calendar';
 import "./mainBox.css";
 
 import user_icon from '../../../../assets/user.svg';
-import chat_icon from '../../../../assets/chat.svg';
+// import chat_icon from '../../../../assets/chat.svg';
+import config_icon from '../../../../assets/config.png';
 
 function MainBox() {
     return (
@@ -18,9 +19,7 @@ function MainBox() {
                             <p className="name">Matheus</p>
                         </div>
                     </div>
-                    <a href="http://chat.zenvia.com/bot/db643b5653437037e09afb85b641aa59">
-                        <img src={chat_icon} alt="Chat bot"/>
-                    </a>
+                    <img src={config_icon} alt="Chat bot"/>
                 </div>
                 <div className="mainBody">
                     <Calendar
@@ -40,7 +39,7 @@ function MainBox() {
                         <p className="subject">Matemática</p>
                     </div>
                     <div className="next-events">
-                        <p className="next">Próximos:</p>
+                        <p className="next">Próximos eventos:</p>
                         <div className="events">
                             <p>Prova de</p>
                             <p>Conhecimentos gerais</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./notificationBox.css"
 
-import notification_icon from '../../../../assets/notification.svg';
+import notification_icon from '../../../../assets/yellow-notfication.svg';
 
 function NotificationBox() {
     return (
